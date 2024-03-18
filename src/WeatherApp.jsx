@@ -5,7 +5,7 @@ import { useState } from "react";
 export const WeatherApp = () => {
 
     const urlBase = 'https://api.openweathermap.org/data/2.5/weather';
-    const API_KEY = '128198e4a17d03f92b608446e9b68de2';
+    const API_KEY = '************************************';
 
     const [ciudad, setCiudad] = useState('');
     const [dataWeather, setdataWeather] = useState(null);
